@@ -107,10 +107,6 @@ header #header_contact {
 /*--- </header> ---*/
 
 
-
-
-
-
 /*--- <メイン> ---*/
 
 #wrapper {
@@ -277,3 +273,14 @@ footer small {
 }
 
 /*--</footer>--*/
+
+/*--<index.html>--*/
+
+#main_visual {
+  width: 980px;
+  height: 440px;
+  margin: 0 auto 48px;
+}
+
+
+/*--</index.html>--*/
