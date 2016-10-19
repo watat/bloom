@@ -282,5 +282,147 @@ footer small {
   margin: 0 auto 48px;
 }
 
+#point {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+#point figure {
+  float: right;
+  margin: 0 0 0 16px;
+}
+
+#point figcaption {
+  font-size: 12px;
+  color: #9c9689;
+  text-align: center;
+}
+
 
 /*--</index.html>--*/
+
+/*--<course.html>--*/
+
+#course table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+}
+
+#course th,
+#course td {
+  border: 1px solid #c7c7c7;
+  padding: 8px;
+}
+
+#course th {
+  background-color: #f1ede4;
+  text-align: left;
+  width: 5em;
+}
+
+/*--</course.html>--*/
+
+/*--<gallery.html>--*/
+
+#gallery ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#gallery ul li{
+  width: 220px;
+  margin: 0 30px 30px 0;
+  padding: 10px 0;
+  border: solid 1px #ccc;
+  float: left;
+  text-align: center;
+  color: #b7a077;
+  font-weight: bold;
+  box-shadow: 2px 2px 3px #b7a077;
+}
+
+#gallery ul li:nth-child(3n) {
+  margin-right: 0;
+}
+
+/*--</gallery.html>--*/
+
+/*--<contact.html>--*/
+
+#entry dl {
+  background: #f1ede4;
+  border: 1px solid #ddd;
+  border-top: 0;
+}
+
+#entry dl dt,
+#entry dl dd {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+#entry dl dt {
+  width: 13em;
+  float: left;
+  clear: both;
+  font-weight: bold;
+}
+
+#entry dl dd {
+  background-color: #fff;
+  border-left: 1px solid #ddd;
+  margin-left: 13em;
+}
+
+.must {
+  color: #f00;
+}
+
+#entry #name {
+  width: 15em;
+  padding: 3px;
+}
+
+#entry #email {
+  width: 25em;
+  padding: 3px;
+}
+
+#entry #interest {
+  -webkit-appearance:none;
+  appearance: none;
+  font-size: 14px;
+  height: 23px;
+  width: 25em;
+  padding-left: 7px;
+  background-color: #fff;
+}
+
+#entry #detail {
+  width: 36em;
+  height: 15em;
+}
+
+#entry #submit_button_cover {
+  text-align: center;
+}
+
+#entry #submit_button {
+  background-color: #b7a077;
+  border: 1px solid #b7a077;
+  padding: 15px 100px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.1s linear;
+}
+
+#entry #submit_button:hover {
+  background-color: #c7ae81;
+}
+
+
+/*--</contact.html>--*/
